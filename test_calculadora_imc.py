@@ -16,6 +16,7 @@ def test_calcular_imc_valores_normales():
 def test_calcular_imc_redondeo():
     """Verifica que el IMC se redondee a dos decimales."""
     imc = calcular_imc(63.5, 1.73)
+
     assert isinstance(imc, float)
     assert round(imc, 2) == imc  # Debe tener solo dos decimales
 
