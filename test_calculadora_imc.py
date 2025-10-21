@@ -1,5 +1,5 @@
 import pytest
-from calculadora_IMC import calcular_imc, interpretar_imc
+from Ejercicio1_calculadora_IMC import calcular_imc, interpretar_imc
 
 
 
